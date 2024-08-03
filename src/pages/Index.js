@@ -15,8 +15,7 @@ const Index = () => (
       <header>
         <div className="title">
           {/* <h2><Link to="/">About this site</Link></h2> */}
-          <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-            or you can check out my {' '}
+          <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>. You can also check out my {' '}
             <Link to="/resume">resume</Link>, {' '}
             <Link to="/projects">projects</Link>, {' '}
             or <Link to="/contact">contact</Link> me.
@@ -24,7 +23,7 @@ const Index = () => (
         </div>
       </header>
 
-      <p> Original source from Michael D&apos;Angelo available <a href="https://github.com/mldangelo/personal-site" target="_blank" rel="noreferrer">here</a>.</p>
+      <p> Original source for this website from Michael D&apos;Angelo available <a href="https://github.com/mldangelo/personal-site" target="_blank" rel="noreferrer">here</a>.</p>
     </article>
   </Main>
 );
