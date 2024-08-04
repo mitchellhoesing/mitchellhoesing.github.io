@@ -20,13 +20,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Mitch. I am an alumnus of Oregon State University (OSU) and Penn State
-        University (PSU), where I studied computer science, research, machine learning,
-        and artificial
-        intelligence. Previously, I was a research assistant at PSU. My research performs a
+        University (PSU). Previously, I was a research assistant at PSU. My research performs a
         longitudinal quantitative analysis of the CHI research conference data sources and
-        methodologies using large language models. I also supported the PLAINTEXT Lab team members
-        with their research through statistical work, programming, and writing. I have also worked
-        at Intel as a quality analyst on the test automation team.
+        methodologies using large language models.
       </p>
       <ul className="actions">
         <li>

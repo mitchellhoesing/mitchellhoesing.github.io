@@ -42,7 +42,7 @@ If you feel the need to reach out, please do not hesitate; it is no bother to me
 
 # I dream of
 
-- realizing my weaknesses.
-- being a mentor.
-- continuous improvement.
-- you not judging the software design on my Github, until recent times.
+- Realizing my weaknesses
+- Being a mentor
+- Continuous improvement
+- You not judging the software design on my Github, until recent times
