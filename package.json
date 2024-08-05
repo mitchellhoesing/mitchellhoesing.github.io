@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mitchellhoesing/mitchellhoesing.github.io"
+    "url": "https://github.com/mitchellhoesing/mitchellhoesing.github.io.git"
   },
   "engines": {
     "node": ">=14.x"
