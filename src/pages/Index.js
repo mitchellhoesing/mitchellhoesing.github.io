@@ -8,8 +8,8 @@ import Main from '../layouts/Main';
 // image, Adobe makes a great online tool here.
 const Index = () => (
   <Main
-    description={"Mitchell Hoesing's personal website. Penn. State Master's Student, "
-    + 'Oregon State University Alumni.'}
+    description={"Mitchell Hoesing's personal website. Penn. State &  "
+    + 'Oregon State University Alumnus.'}
   >
     <article className="post" id="index">
       <header>
