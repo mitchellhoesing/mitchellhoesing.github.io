@@ -1,47 +1,60 @@
-// TODO Add a couple lines about each project
+// TODO Capstone, Thesis, Class Projects. Add a couple lines about each project
 const data = [
+//   {
+//    title: 'Harvest',
+//    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
+//    link: 'https://devpost.com/software/harvest',
+//    image: '/images/projects/harvest.jpg',
+//    date: '2015-09-20',
+//    desc:
+//      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
+//      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
+//      + 'and nutrient deficiencies at an affordable price for the developing world.',
+//  },
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: "Sources and Methods: A Longitudinal Examination of CHI Papers' Data Sources and Study Methodologies",
+    subtitle: "Master's Thesis",
+    link: 'https://drive.google.com/file/d/1yf1rPf0HFnDo2iyrLtXV-kJ9CfBXmnjw/view?usp=sharing',
+    image: '/images/projects/stockAIImage.jpg',
+    date: '2024-07',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      "Sources and methods, my master's thesis, works toward enlightening readers about data "
+      + 'source and methodology trends at the CHI research conference. '
+      + 'To achieve this enlightenment, we leveraged GPT-3.5 to analyze '
+      + 'research papers and assign as many labels in our data gathering '
+      + 'methodology taxonomy as deemed appropriate. During the course of this '
+      + 'project it evolved into an amalgamation of the '
+      + 'longitudinal analysis of the CHI research conference with a '
+      + 'study of large-language model multi-instance multi-label classification '
+      + 'capabilities and exploring a framework for addressing these types of '
+      + 'problems using large-language models.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Underwater Object Sonar Classification',
+    subtitle: 'IST597 Project',
+    link: 'https://drive.google.com/file/d/1N2U1Vn-bmUBWIkQB9IspYxFjcLpH9smR/view?usp=sharing',
+    image: '/images/projects/pretrained-planeCropped.jpg',
+    date: '2023-04',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Underwater sonar classification investigates two methods for underwater sonar '
+      + 'image object classification: context clustering and DeTr, a detection transformer. '
+      + 'We classified images of the Underwater Acoustic Target Detection (UATD) dataset '
+      + 'which consists of 9200 annotated sonar images. This data was released by Peng Cheng Laboratory in 2022. '
+      + 'This project enlightened me to compute constraints when training neural networks '
+      + 'with image data, what can alleviate these constraints, and various '
+      + 'image data preprocessing techniques. ',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Virtual Reality For Visualization And Training For Cross Laminated Timber Structures',
+    subtitle: 'Capstone Project',
+    link: 'https://drive.google.com/file/d/1GcxDeYnrLuOd_VZ_90uKzRGP63xOuEDQ/view?usp=sharing',
+    image: '/images/projects/peavyhall.jpg',
+    date: '2018-06',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'This project implements a virtual reality construction training environment for cross laminated timber structures (CLT). '
+      + 'These structures are predominantly developed and built in Oregon. The reason for this is that Oregon has rich timber '
+      + 'resources and an active industry. The purpose of this project is to educate architects about the '
+      + 'design of CLTs by allowing them to explore the composition of the structure with various tools and functionalities.',
   },
 ];
 
