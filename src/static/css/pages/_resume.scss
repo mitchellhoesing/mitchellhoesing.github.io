@@ -120,12 +120,13 @@
 }
 
 .courses ul li {
-  display: inline;
+  display: block;
+  text-align: left
 }
 
 .course-dot {
-  display: inline;
-  // display: none;
+  // display: inline;
+  display: none;
 }
 
 @include breakpoint(small) {
