@@ -15,7 +15,7 @@ const data = [
     title: 'Retrieval-Augmented Generation: Python Documentation',
     subtitle: 'RAG-PythonDocs',
     link: 'https://github.com/mitchellhoesing/RAG-PythonDocs',
-    image: '/images/projects/stockAIImage.jpg',
+    image: '/images/projects/RAGImage.jpg',
     date: '2024-11',
     desc:
       'RAG-PythonDocs is a Retrieval-Augmented Generation (RAG) application designed to assist junior developers in '
