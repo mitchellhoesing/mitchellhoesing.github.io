@@ -11,6 +11,17 @@ const data = [
 //      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
 //      + 'and nutrient deficiencies at an affordable price for the developing world.',
 //  },
+{
+    title: "Retrieval-Augmented Generation: Python Documentation",
+    subtitle: "RAG-PythonDocs",
+    link: 'https://github.com/mitchellhoesing/RAG-PythonDocs',
+    image: '/images/projects/stockAIImage.jpg',
+    date: '2024-11',
+    desc:
+      "RAG-PythonDocs is a Retrieval-Augmented Generation (RAG) application designed to assist junior developers in "
+      + 'querying and understanding Python documentation in context. By leveraging state-of-the-art language models '
+      + 'and embeddings, the tool provides clear and accurate answers to Python-related questions.',
+  },
   {
     title: "Sources and Methods: A Longitudinal Examination of CHI Papers' Data Sources and Study Methodologies",
     subtitle: "Master's Thesis",
