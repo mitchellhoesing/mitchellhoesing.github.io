@@ -66,7 +66,6 @@ const data = [
       + 'A series of SQL lesson scripts, each focusing on a specific SQL concept or feature. '
       + 'Lessons progress from basic data retrieval to advanced topics such as transactions, stored procedures, cursors, and triggers. ',
   },
-  
   {
     title: 'Virtual Reality For Visualization And Training For Cross Laminated Timber Structures',
     subtitle: 'Capstone Project',
