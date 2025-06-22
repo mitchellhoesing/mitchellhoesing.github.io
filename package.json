@@ -19,6 +19,9 @@
     "test": "npx jest --passWithNoTests",
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"
   },
+  "react-snap": {
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
