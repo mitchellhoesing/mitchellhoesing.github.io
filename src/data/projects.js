@@ -60,7 +60,7 @@ const data = [
     subtitle: 'SQL Project To Improve Tech Stack',
     link: 'https://github.com/mitchellhoesing/LearnSQL',
     image: '/images/projects/LearnSQL.jpg',
-    date: '2025',
+    date: '2025-06',
     desc:
       'This project was created as a personal learning resource to teach myself SQL and improve my overall tech stack. '
       + 'A series of SQL lesson scripts, each focusing on a specific SQL concept or feature. '
