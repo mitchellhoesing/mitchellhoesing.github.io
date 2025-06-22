@@ -56,6 +56,18 @@ const data = [
       + 'image data preprocessing techniques. ',
   },
   {
+    title: 'LearnSQL',
+    subtitle: 'SQL Project To Improve Tech Stack',
+    link: 'https://github.com/mitchellhoesing/LearnSQL',
+    image: '/images/projects/LearnSQL.jpg',
+    date: '2025',
+    desc:
+      'This project was created as a personal learning resource to teach myself SQL and improve my overall tech stack. '
+      + 'A series of SQL lesson scripts, each focusing on a specific SQL concept or feature. '
+      + 'Lessons progress from basic data retrieval to advanced topics such as transactions, stored procedures, cursors, and triggers. ',
+  },
+  
+  {
     title: 'Virtual Reality For Visualization And Training For Cross Laminated Timber Structures',
     subtitle: 'Capstone Project',
     link: 'https://drive.google.com/file/d/1GcxDeYnrLuOd_VZ_90uKzRGP63xOuEDQ/view?usp=sharing',
