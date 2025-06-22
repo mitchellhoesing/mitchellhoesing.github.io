@@ -20,7 +20,17 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"
   },
   "react-snap": {
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-first-run",
+      "--no-zygote",
+      "--single-process"
+  ],
+  "headless": true,
+  "args": ["--disable-web-security"]
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
