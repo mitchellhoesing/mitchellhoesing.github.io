@@ -1,16 +1,24 @@
-// TODO Capstone, Thesis, Class Projects. Add a couple lines about each project
 const data = [
-//   {
-//    title: 'Harvest',
-//    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-//    link: 'https://devpost.com/software/harvest',
-//    image: '/images/projects/harvest.jpg',
-//    date: '2015-09-20',
-//    desc:
-//      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-//      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-//      + 'and nutrient deficiencies at an affordable price for the developing world.',
-//  },
+  {
+    title: 'RaidMind: WoW Logs Analyzer Agent',
+    subtitle: 'LLM powered World of Warcraft Logs Analyzing Agent',
+    link: 'https://github.com/mitchellhoesing/WoW-Logs-Agent',
+    image: '/images/projects/LogsAnalyzer.jpg',
+    date: '2026-04',
+    desc:
+      'LLM-powered analyzer that compares two WarcraftLogs combat reports and produces a '
+      + 'prioritized, human-readable list of changes a player can make to improve their DPS.',
+  },
+  {
+    title: 'WoW Rotation RL Agents',
+    subtitle: 'SimulationCraft & Reinforcement Learning Fusion',
+    link: 'https://github.com/mitchellhoesing/WoW-Rotation-Agents',
+    image: '/images/projects/SCRL.jpg',
+    date: '2026-04',
+    desc:
+      'Reinforcement learning agents for World of Warcraft combat rotations, '
+      + 'powered by SimulationCraft (https://www.simulationcraft.org/) as the simulation backend.',
+  },
   {
     title: 'Retrieval-Augmented Generation: Python Documentation',
     subtitle: 'RAG-PythonDocs',
@@ -29,16 +37,8 @@ const data = [
     image: '/images/projects/stockAIImage.jpg',
     date: '2024-07',
     desc:
-      "Sources and methods, my master's thesis, works toward enlightening readers about data "
-      + 'source and methodology trends at the CHI research conference. '
-      + 'To achieve this enlightenment, we leveraged GPT-3.5 to analyze '
-      + 'research papers and assign as many labels in our data gathering '
-      + 'methodology taxonomy as deemed appropriate. During the course of this '
-      + 'project it evolved into an amalgamation of the '
-      + 'longitudinal analysis of the CHI research conference with a '
-      + 'study of large-language model multi-instance multi-label classification '
-      + 'capabilities and exploring a framework for addressing these types of '
-      + 'problems using large-language models.',
+      "Sources and methods, my master's thesis, utilizes an LLM to classify "
+      + 'data sources and methodologies at the CHI research conference for metascientific insight. ',
   },
   {
     title: 'Underwater Object Sonar Classification',
