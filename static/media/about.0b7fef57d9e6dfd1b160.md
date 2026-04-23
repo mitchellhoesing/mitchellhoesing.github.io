@@ -41,8 +41,4 @@ If you feel the need to reach out, please do not hesitate; it is no bother to me
 - I met George H. W. Bush.
 
 # I dream of
-
-- Realizing my weaknesses
-- Being a mentor
-- Continuous improvement
-- You not judging the software design on my Github, until recent times
+- Making as many positive changes in the world as I can.
