@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   deployment:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     environment: production
     steps:
@@ -20,9 +20,16 @@ jobs:
         node-version-file: '.nvmrc'
     - name: Install
       run: npm ci
+    - name: Install Chrome for Puppeteer
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget
+        wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
     - name: Build and Deploy
       env:
         NODE_ENV: production
+        PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
         # Remove this line if you would like to skip using google analytics
         REACT_APP_GA_TRACKING_ID: UA-68649021-1
         # This is set automatically by github

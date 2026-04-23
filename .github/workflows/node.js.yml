@@ -29,25 +29,17 @@ jobs:
     - run: npm ci
     - name: Lint
       run: npm run lint
-    - name: Install system dependencies (required for Puppeteer)
+    - name: Install Chrome for Puppeteer
       run: |
         sudo apt-get update
-          sudo apt-get install -y \
-            libgbm-dev \
-            libnss3 \
-            libx11-6 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxext6 \
-            libxfixes3 \
-            libxrandr2 \
-            libxshmfence1 \
-            wget \
-            xdg-utils
+        sudo apt-get install -y wget
+        wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
     - name: Build and Statically Render
       run: npm run predeploy
       env:
         NODE_ENV: development
+        PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
     - name: Test
       run: npm test
       env:
