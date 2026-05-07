@@ -1,5 +1,15 @@
 const data = [
   {
+    title: 'Alfred: AI Butler',
+    subtitle: 'Alfred: Personal AI assistant for Online Tasks',
+    link: 'https://github.com/mitchellhoesing/Alfred',
+    image: '/images/projects/Alfred.jpg',
+    date: '2026-05',
+    desc:
+      'Personal AI assistant. A Python MCP server bridging Claude Code to Google Calendar, Gmail, '
+      + 'and Jira Cloud, plus four intent-driven Claude skills built on top.',
+  },
+  {
     title: 'RaidMind: WoW Logs Analyzer Agent',
     subtitle: 'LLM powered World of Warcraft Logs Analyzing Agent',
     link: 'https://github.com/mitchellhoesing/WoW-Logs-Agent',
