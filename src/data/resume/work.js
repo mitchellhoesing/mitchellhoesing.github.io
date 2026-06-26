@@ -13,15 +13,38 @@
  */
 const work = [
   {
+    name: 'Independent AI Research',
+    position: 'Applied AI Engineer',
+    url: '',
+    startDate: '2024-07',
+    endDate: 'Present',
+    highlights: [
+      'Developed Alfred, a Python-based Model Context Protocol (MCP) server that exposes enterprise APIs to LLM engines.',
+      'Implemented a decoupled SourceAdapter interface to synchronize information and reinforce infrastructure scalability.',
+      'Evaluated deep reinforcement learning policies using Ray RLlib and SimulationCraft to optimize agent decision-making logic.',
+      'Benchmarked reinforcement learning policies against deterministic baseline strategies to measure performance.',
+      'Fine-tuned Qwen2.5-1.5B-Instruct using 4-bit QLoRA on a single 8GB GPU for a specialized persona-adaptation task.',
+      'Reduced held-out model perplexity by 54% through the implementation of completion-only loss masking.',
+      'Architected an automated RAG pipeline to ingest, index, and optimize text-chunking for software documentation.',
+      'Designed semantic search strategies to maximize retrieval precision and reduce downstream LLM hallucination.',
+    ],
+  },
+  {
     name: 'Pennsylvania State University',
     position: 'Research Assistant',
     url: 'https://plaintext.psu.edu/',
     startDate: '2022-12',
     endDate: '2024-07',
     highlights: [
-      'Progressed research in longitudinal quantitative analyses using large-language models.',
-      'Support the PLAINTEXT Lab with software development, statistical work and writing, and research paper writing.',
-      'Present research papers to the PLAINTEXT Lab on interesting and related work to our own.',
+      'Engineered an automated multi-class text classification pipeline using Python, SQL, and commercial LLM APIs.',
+      'Mapped 37 years of historical research corpora across 6,607 documents using LLM classification pipelines.',
+      'Developed custom regex, tokenization, stop-word filtering, and lemmatization pipelines in SpaCy and NLTK.',
+      'Cleaned raw text strings to optimize computational efficiency and token context-window density.',
+      'Implemented Latent Dirichlet Allocation (LDA) modeling with asymmetric alpha priors to extract latent word-over-topic distributions.',
+      'Validated and iterated a 15-tier methodological taxonomy using unsupervised topic modeling.',
+      'Architected validation frameworks to benchmark LLM accuracy against a human-annotated ground truth matrix.',
+      'Optimized classification confidence via token-level logprob thresholding.',
+      'Calculated quantitative validation metrics including the Jaccard Index, precision, recall, and F1 scores.',
     ],
   },
   {
@@ -31,9 +54,10 @@ const work = [
     startDate: '2021-7',
     endDate: '2022-11',
     highlights: [
-      'Analyzed and/or patched automation test failures.',
-      'Detail bugs and assign Jira tickets to appropriate team and domain owner.',
-      'Provide support to adjacent teams in the form of software development to meet nearing deadlines.',
+      'Reviewed and analyzed automated test execution logs daily to isolate root causes of failures.',
+      'Distinguished accurately between true system regressions and internal automation framework errors.',
+      'Summarized log findings and escalated actionable technical details to relevant domain managers.',
+      'Communicated cross-functionally across domain groups to ensure swift resolution of development blockers.',
     ],
   },
   {
