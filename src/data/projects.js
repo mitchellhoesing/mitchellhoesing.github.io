@@ -1,5 +1,16 @@
 const data = [
   {
+    title: 'NietzcheLLM',
+    subtitle: 'Nietzsche Persona Fine-Tune',
+    link: 'https://github.com/mitchellhoesing/NietzcheLLM',
+    image: '/images/projects/NietzcheLLM.jpg',
+    date: '2026-06',
+    desc:
+      'QLoRA fine-tune of Qwen/Qwen2.5-1.5B-Instruct that answers any question in the first-person '
+      + 'voice and philosophical style of Friedrich Nietzsche — from "What is the meaning of life?" to '
+      + '"What\'s the best pizza topping?"',
+  },
+  {
     title: 'Alfred: AI Butler',
     subtitle: 'Alfred: Personal AI assistant for Online Tasks',
     link: 'https://github.com/mitchellhoesing/Alfred',
